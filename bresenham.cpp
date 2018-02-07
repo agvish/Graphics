@@ -8,7 +8,7 @@ typedef struct{
     int x;
     int y;
 }P;
-void bresenGentle(P,P,int,int,int);                                     /*Function prototype for drawing line*/
+void bresen(P,P,int,int,int);                                     /*Function prototype for drawing line*/
 int main(void)
 {
     P p1,p2;
@@ -36,13 +36,13 @@ int main(void)
             delx = delt;
             change = 1;
         }
-        bresenGentle(p1,p2,dely,delx,change);                           /*Function call to draw a line*/
+        bresen(p1,p2,dely,delx,change);                           /*Function call to draw a line*/
     }
 
     getch();
     closegraph();
 }
-void bresenGentle(P p1,P p2,int dely,int delx , int change)
+void bresen(P p1,P p2,int dely,int delx , int change)
 {
     int x , y , xinc , yinc , par = 0 , steps = delx , xst = 0;
     x = p1.x;                                                           /*Marking the starting point*/
