@@ -10,8 +10,8 @@
 
 #define R(x) ((int)(x+0.5))
 
-void ellipseMidPoint(int,int);                              //Function declaration to generate coordinates of first quadrant to draw ellipse
-void drawEllipse(int,int);                                  //Function declaration to plot pixel in each coordinate to draw ellipse
+void ellipseMidPoint(int,int);                                          //Function declaration to generate coordinates of first quadrant to draw ellipse
+void drawEllipse(int,int);                                              //Function declaration to plot pixel in each coordinate to draw ellipse
 
 int main(void)
 {
