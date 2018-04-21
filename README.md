@@ -1,2 +1,2 @@
 # Graphics
-This repository contains codes on some graphics algorithm.
+This repository contains codes on some graphics algorithm witten in BGI.
